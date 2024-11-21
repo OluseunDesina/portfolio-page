@@ -1,0 +1,39 @@
+.nav-link {
+  @apply cursor-pointer hover:-translate-y-1 hover:scale-110 duration-300 hover:underline
+}
+
+.whatsapp-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.hero-img {
+  height: 550px;
+  width: auto;
+}
+
+.social-link {
+  height: 40px;
+  width: 40px;
+}
+
+.hero-bg {
+  background-image: url("../assets/hero-bg.svg"), url("../assets/particle.svg");
+  background-position-x: center, 20%;
+  background-position-y: 75px, top;
+  background-repeat: no-repeat, no-repeat;
+  width: 100%;
+}
+.stat-card {
+  @apply bg-white flex flex-col justify-center rounded-lg shadow-md px-6 py-4 transition-shadow hover:shadow-lg cursor-pointer hover:-translate-y-1 hover:scale-105 duration-300
+}
+.skill-holder {
+  @apply bg-white w-[200px] px-6 py-4 flex flex-col gap-2 justify-center text-center text-sm font-semibold text-wrap rounded-t-full rounded-b-full shadow-md transition-shadow hover:shadow-lg cursor-pointer hover:-translate-y-1 hover:scale-105 duration-300
+}
+
+.active {
+  @apply bg-primary text-white rounded-lg text-primary;
+}
+// .active {
+  // @apply bg-white rounded-lg text-primary;
+// }

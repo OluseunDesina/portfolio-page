@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Barlow", cursive;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.text-edu {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  // font-weight: <weight>;
+  font-style: normal;
+}
